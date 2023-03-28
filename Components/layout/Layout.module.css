@@ -1,0 +1,28 @@
+.header{
+    background-image: url("/icon/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.text{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 80px;
+}
+
+.button a{
+    color: #222;
+    background-color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 6px;
+}
