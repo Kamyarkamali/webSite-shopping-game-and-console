@@ -1,0 +1,21 @@
+.container{
+    width: 900px;
+    margin-top: 100px;
+    margin: auto;
+}
+
+
+.subContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.text{
+    border-bottom: 3px solid green;
+    margin-bottom: 50px;
+    font-size: 1.9rem;
+    color: gray;
+    width: fit-content;
+}

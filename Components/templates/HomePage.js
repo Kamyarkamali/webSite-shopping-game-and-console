@@ -1,8 +1,16 @@
 import React from 'react'
 
+//styled
+import styled from "../templates/HomePage.module.css";
+
+///Components
+import Navbar from '../modules/Navbar';
+
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <div className={styled.container}>
+      <Navbar/>
+    </div>
   )
 }
 

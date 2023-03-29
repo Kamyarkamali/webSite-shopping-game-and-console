@@ -1,0 +1,28 @@
+.container{
+    width: 400px;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.sliderflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    margin-left: 1rem;
+} 
+
+.container img{
+    width: 300px;
+    height: 300px;
+    margin-left: 4rem;
+}
+
+.container h1{
+    border-bottom: 3px solid green;
+    color: blue;
+    width: fit-content;
+    margin-left: 9.5rem;
+}
