@@ -74,7 +74,7 @@ const Navbar = () => {
            <div className={style.sliderflex}>
             <img src='/images/9.jpg' alt='image'/>
            </div>
-        </Slider>
+          </Slider>
         </div>
     );
 };

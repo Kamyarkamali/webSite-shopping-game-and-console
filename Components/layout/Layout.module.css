@@ -120,7 +120,14 @@
     padding: 15px;
 }
 
-
+@media (min-width:320px) and (max-width:720px){
+    .header{
+        width: 900px;
+    }
+    .footer{
+        width: 900px;
+    }
+}
 
 
 @media screen and (max-width: 400px) {
