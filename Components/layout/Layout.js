@@ -19,7 +19,8 @@ const Layout = ({children}) => {
                 <h1>Playstation 5 game console and accessories store</h1>
             </div>
             <div className={styled.button}>
-                <Link href='#'>Shopping</Link>
+                <Link href={"/"}>Home</Link>
+                <Link href={"/shopPs5"}>Shopping PS5</Link>
                 <Link href='/game'>Game And Console</Link>
                 <Link href='#'>Accessories</Link>
             </div>

@@ -120,137 +120,71 @@
     padding: 15px;
 }
 
-@media (min-width:320px) and (max-width:720px){
+@media (min-width:320px) and (max-width:480px){
     .header{
-        width: 900px;
+        width:350%;
     }
     .footer{
-        width: 900px;
+        width: 360%;
+    }
+    .footer h3{
+        font-size: 2rem;
+    }
+    .ditalse{
+        font-size: 2rem;
+    }
+    .sochial img{
+        width: 60px;
+    }
+    .ditalse ul li{
+        margin-top: 1rem;
+
+    }
+    .button{
+       margin-top: 5rem;
+       gap: 15px;
+    }
+    .container{
+        min-height: 1900px;
     }
 }
 
 
-@media screen and (max-width: 400px) {
-    .header {
-    height: 200px;
+@media (min-width:481px) and (max-width:768px){
+    .header{
+        width: 234%;
     }
-    
-    .text {
-    display: none;
+    .footer{
+        width: 235%;
+        height: 400px;
     }
-    
-    .button {
-    display: none;
+    .footer h3{
+        font-size: 2rem;
     }
-    .menu{
-        display: block;
+    .ditalse ul li{
+        margin-top: 0.40rem;
     }
-    
-    .button a {
-    font-size: 0.7rem;
-    padding: 3px;
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .header{
+        width: 145%;
     }
-    
-    .ditalse ul {
-    padding: 10px;
+    .footer{
+        width:145%;
     }
-    
-    .ditalse ul li {
-    padding: 5px;
-    }
-    
-    .ditalse ul li a {
-    font-size: 0.8rem;
-    }
-    
-    .sochial img {
-    width: 30px;
-    margin-right: 2rem;
-    }
-    }
+}
 
 
-    @media screen and (min-width: 401px) and (max-width: 768px) {
-    .header {
-    height: 250px;
+@media (min-width:1025px) and (max-width:1200px){
+    .header{
+        width:104%;
     }
-        
-    .text {
-    font-size: 1.5rem;
+    .footer{
+        width: 105%;
     }
-        
-    .button {
-    gap: 60px;
-    }
-        
-     .button a {
-    font-size: 0.9rem;
-    padding: 5px;
-    }
-        
-    .ditalse ul {
-    padding: 15px;
-     }
-        
-    .ditalse ul li {
-    padding: 7px;
-     }
-        
-    .ditalse ul li a {
-    font-size: 1rem;
-    }
-        
-    .sochial img {
-    width: 35px;
-    margin-right: 3rem;
-    }
-    }
+}
 
 
-    .text {
-    font-size: 2rem;
-            }
-            
-    .button {
-    gap: 80px;
-    }
-            
-    .button a {
-    font-size: 1.2rem;
-    padding: 8px;
-    }
-            
-    .ditalse ul {
-    padding: 20px;
-     }
-            
-    .ditalse ul li {
-    padding: 10px;
-    }
-            
-    .ditalse ul li a {
-    font-size: 1.2rem;
-    }
-            
-    .sochial img {
-    width: 40px;
-     margin-right: 3rem;
-    }
-            
+ 
 
-    @media screen and (min-width: 1281px) {
-    .header {
-    height: 400px;
-    }
-                
-    .text {
-    font-size: 2.5rem;
-    }
-                
-    .button {
-    gap: 100px;
-    }
-    }
-                
-
-    

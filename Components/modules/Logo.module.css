@@ -1,0 +1,20 @@
+.subcontainer img{
+    width: 600px;
+    margin-top:10rem;
+    margin-left: 6rem;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+}
+
+.span{
+    color: blue;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.subcontainer h1{
+    color: #333;
+}

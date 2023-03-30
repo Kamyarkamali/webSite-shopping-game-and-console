@@ -1,7 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
 import style from "../modules/Navbar.module.css";
-
+import Link from 'next/link';
+import { Grid } from '@mui/material';
 
 
 const Navbar = () => {
@@ -43,6 +44,7 @@ const Navbar = () => {
     return (
         <div className={style.container}>
             <h1>Your Liked</h1>
+          <Link href={'/game'}>
         <Slider {...settings} className={style.slider}>
            <div className={style.sliderflex}>
             <img src='/images/1.jpg' alt='image'/>
@@ -75,6 +77,7 @@ const Navbar = () => {
             <img src='/images/9.jpg' alt='image'/>
            </div>
           </Slider>
+          </Link>
         </div>
     );
 };
