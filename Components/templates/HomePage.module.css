@@ -5,16 +5,10 @@
 }
 
 
-@media only screen and (max-width: 768px) {
-    .container {
-      max-width: 720px;
-      margin: 50px auto;
-    }
+@media (min-width:320px) and (max-width:480px){
+  .container{
+    margin-top: 200px;
   }
+}
 
-  @media only screen and (max-width: 576px) {
-    .container {
-      max-width: 540px;
-      margin: 25px auto;
-    }
-  }
+

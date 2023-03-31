@@ -1,23 +1,12 @@
 export const data=[
-    {id:1,image:"/ps5/model1/model1.jpg"},
-    {id:2,image:"/ps5/model1/model2.jpg"},
-    {id:3,image:"/ps5/model1/model3.jpg"},
-    {id:4,image:"/ps5/model1/model4.jpg"},
-    {id:5,image:"/ps5/model1/model5.jpg"},
-    {id:6,image:"/ps5/model2/model2S.jpg"},
-    {id:7,image:"/ps5/model2/model3.jpg"},
-    {id:8,image:"/ps5/model2/model4.jpg"},
-    {id:9,image:"/ps5/model2/model5.jpg"},
-    {id:10,image:"/ps5/model2/model7.jpg"},
+    {id:1,image:"/ps5/model1/model1.jpg",thumbnail:"/ps5/model1/model1.jpg",thumbnailWidth: 320,thumbnailHeight: 212},
+    {id:2,image:"/ps5/model1/model2.jpg",thumbnail:"/ps5/model1/model2.jpg",thumbnailWidth: 320,thumbnailHeight: 212},
+    {id:3,image:"/ps5/model1/model3.jpg",thumbnail:"/ps5/model1/model3.jpg",thumbnailWidth: 320,thumbnailHeight: 212},
+    {id:4,image:"/ps5/model1/model4.jpg",thumbnail:"/ps5/model1/model4.jpg",thumbnailWidth: 320,thumbnailHeight: 212},
+    {id:5,image:"/ps5/model1/model5.jpg",thumbnail:"/ps5/model1/model5.jpg",thumbnailWidth: 320,thumbnailHeight: 212},
 ]
 
-// export const data2=[
-//     {id:6,src:"/ps5/model2/model2S.jpg"},
-//     {id:7,src:"/ps5/model2/model3.jpg"},
-//     {id:8,src:"/ps5/model2/model4.jpg"},
-//     {id:9,src:"/ps5/model2/model5.jpg"},
-//     {id:10,src:"/ps5/model2/model7.jpg"},
-// ]
+
 
 export const data3=[
     {id:1,src:"/ps5/model3/model3.jpg"},

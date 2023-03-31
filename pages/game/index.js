@@ -16,7 +16,7 @@ export default index;
 
 
 export async function getStaticProps(){
-    const res=await fetch("http://localhost:4000/data")
+    const res=await fetch("https://kamyar021.onrender.com/data")
     const data=await res.json()
 
     return{

@@ -122,10 +122,10 @@
 
 @media (min-width:320px) and (max-width:480px){
     .header{
-        width:350%;
+        width:419%;
     }
     .footer{
-        width: 360%;
+        width: 418%;
     }
     .footer h3{
         font-size: 2rem;
@@ -145,17 +145,20 @@
        gap: 15px;
     }
     .container{
-        min-height: 1900px;
+        min-height: 240px;
+        /* margin-top: 18rem; */
+        /* height: 1120%; */
+        /* height: 600%; */
     }
 }
 
 
 @media (min-width:481px) and (max-width:768px){
     .header{
-        width: 234%;
+        width: 292%;
     }
     .footer{
-        width: 235%;
+        width: 293%;
         height: 400px;
     }
     .footer h3{
@@ -173,6 +176,7 @@
     .footer{
         width:145%;
     }
+   
 }
 
 

@@ -1,0 +1,33 @@
+.container img{
+    width: 300px;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+}
+
+.subcontainer h3{
+    color: gray;
+}
+
+.subcontainer span{
+    color: aliceblue;
+    background-color: green;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .container{
+        margin-top: 3rem;
+        margin-left: 8rem;
+    }
+}
+

@@ -15,7 +15,7 @@ export default gameId;
 
 
 export async function getStaticPaths(){
-    const res=await fetch("http://localhost:4000/data");
+    const res=await fetch("https://kamyar021.onrender.com/data");
 
     const json=await res.json();
 
@@ -35,7 +35,7 @@ export async function getStaticPaths(){
 export async function getStaticProps(context){
     const {params}=context;
 
-    const res=await fetch(`http://localhost:4000/data/${params.id}`);
+    const res=await fetch(`https://kamyar021.onrender.com/data/${params.id}`);
 
     const data=await res.json();
 

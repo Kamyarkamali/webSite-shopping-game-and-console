@@ -18,3 +18,27 @@
 .subcontainer h1{
     color: #333;
 }
+
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        width: 1400px;
+        display: flex;
+        justify-content: center;
+        margin-top: 16rem;
+    }
+    .subcontainer h1{
+        font-size: 1.50rem;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .container{
+        margin-left: 16rem;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .container{
+        margin-left: 10rem;
+    }
+}

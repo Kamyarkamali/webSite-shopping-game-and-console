@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+.subcontainer{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        margin: 0;
+    }
+    .subcontainer{
+        width: 1000px;
+        margin-top: 20rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 10rem;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:768px){
+    .container{
+        margin: 0;
+    }
+    .subcontainer{
+        margin-top: 10rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 10rem;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:1024px){
+
+}
